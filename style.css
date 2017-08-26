@@ -24,7 +24,11 @@ body {
     flex-direction: column;
     justify-content: center;
 
-    background-color: #3280bc;
+    background:
+        linear-gradient(rgba(50, 129, 189, 0.6), rgba(50, 129, 189, 0.6)),
+        url(/background.jpg) no-repeat center center fixed;
+    background-size: cover;
+
     color: #d1dae0;
 }
 
@@ -51,8 +55,8 @@ body {
 }
 
 .email {
-    font-size: 2.2em;
-    font-weight: 400;
+    font-size: 1.9em;
+    font-weight: 300;
     margin: 25px 0;
     text-align: center;
 }
