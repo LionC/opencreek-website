@@ -1,0 +1,58 @@
+html, body {
+    font-family: Quicksand, sans-serif;
+    font-size: 14px;
+    line-height: 1.46;
+
+    margin: 0;
+    padding: 0;
+
+    height: 100%;
+}
+
+@media (min-width: 960px) {
+    html, body {
+        font-size: 16px;
+    }
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    background-color: #3280bc;
+    color: #d1dae0;
+}
+
+.main-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    flex-grow: 1;
+}
+
+.logo {
+    font-size: 4em;
+    font-weight: 500;
+    text-align: center;
+    margin: 0;
+}
+
+.tagline {
+    font-size: 1.5em;
+    font-weight: 300;
+    text-align: center;
+    margin: 0;
+}
+
+.email {
+    font-size: 2.2em;
+    font-weight: 400;
+    margin: 25px 0;
+    text-align: center;
+}
